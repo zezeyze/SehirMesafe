@@ -1,0 +1,66 @@
+@charset "UTF-8";
+h1
+{
+color:#AA2222;
+}
+.th-1
+{
+	color:#2222AA;
+	font-weight:600;
+	font-size:18px;
+}
+
+/* select nesnelerini içeren çizelge */
+table.tableNormal
+{
+	border:solid #999999 4px;
+	width:750px;
+	table-layout:fixed;
+}
+
+/* iller arası mesafeyi ve taşır önerilerini göstern çizelge */
+table.tableGenis
+{
+	border:solid #333399 6px;
+	width:1480px;
+	table-layout:fixed;
+}
+
+tr.tr-1{
+	height:65px;
+	vertical-align:middle;
+}
+tr{
+	height:65px;
+	vertical-align:middle;
+}
+
+td{
+	border: solid #AA3333 2px;
+}
+.div-1{
+	border:solid 3px #7777BB;
+	background-color:#FFFFCC;
+}
+.p-1
+{
+	font:oblique;
+	font-weight:600;
+	font-size:18px;
+	color:rgb(0,128,128);
+	
+}
+.span-1
+{
+	font:italic;
+	font-weight:600;
+	font-size:16px;
+	color:#EE5555;
+}
+.span-2
+{
+	font:italic;
+	font-weight:600;
+	font-size:16px;
+	color:#EE5555;
+}

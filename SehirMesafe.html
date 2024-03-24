@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Şehir Mesafe</title>
+    <script type="text/javascript" src="SehirMesafe.js"></script>
+    <link rel="stylesheet" href="SehirMesafe.css">
+</head>
+
+<body onload="sayfaYukle();">
+    <table class="tableNormal">
+        <thead>
+            <tr>
+                <th colspan="2" class="th-1">
+                    Şehirlerarası Mesafe Uygulaması
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="select-1">Birinci Şehir: </label>
+                    <select id="select-1" name="sehir-1" onchange="sehirSecildiOrtak();">
+                        <!-- Optionlar burada JavaScript ile doldurulacak -->
+                    </select>
+                </td>
+                <td>
+                    <label for="select-2">İkinci Şehir:</label>
+                    <select id="select-2" name="sehir_2" onchange="sehirSecildiOrtak();">
+                        <!-- Optionlar burada JavaScript ile doldurulacak -->
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <span id="span-1" class="span-1">
+                        İller arası mesafe burada görüntülenir.
+                    </span>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <div id="div-ana-cizelge">
+        <table id="ana-cizelge" class="tableGenis">
+            <!-- Tablo burada JavaScript ile doldurulacak -->
+        </table>
+    </div> 
+</body>
+</html>
